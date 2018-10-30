@@ -1,0 +1,14 @@
+{
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "allowImportExportEverywhere": false,
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "plugins": ["react", "react-redux"],
+    "extends": ["airbnb",
+        "plugin:react/recommended", 
+        "plugin:react-redux/recommended"]
+}
